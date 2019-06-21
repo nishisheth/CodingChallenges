@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace CodingChallenges.LinkedList
 {
     public class LinkedList

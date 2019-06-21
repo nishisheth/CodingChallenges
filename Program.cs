@@ -1,4 +1,6 @@
 ﻿using System;
+using CodingChallenges.LinkedList;
+using CodingChallenges.Strings;
 
 namespace CodingChallenges
 {
@@ -10,6 +12,10 @@ namespace CodingChallenges
             Console.WriteLine("Challange # 1: Remove Duplicates from LinkedList");
             RemoveDuplicatesLinkedList removeDuplicates = new RemoveDuplicatesLinkedList();
             removeDuplicates.removeDups(inputNums);
+
+            Console.WriteLine("\n\nChallange # 2: Check if two strings are permutations of each other");
+            CheckPermutationofStrings checkPermutations = new CheckPermutationofStrings();
+            checkPermutations.CheckPermutation("abc", "bac");
 
         }
     }
